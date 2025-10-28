@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="main-container">
+    <div class="box1">
+        <div class="input">
+            <input type="text" id="input">
+        </div>
+        <div class="btn">
+            <button id="del">Ac</button>
+            <button id="Arro"><i class="fa-solid fa-arrow-left"></i></button>
+            <button id="per">%</button>
+            <button class="pata_nahi" id="divi">/</button>
+        </div>
+
+        <div class="btn1">
+            <button id="num" onclick="sev()" value="7">7</button>
+            <button id="num" onclick="sev()" value="8">8</button>
+            <button id="num" onclick="sev()">9</button>
+            <button class="pata_nahi" id="mul"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="btn1">
+            <button id="num" onclick="sev()">4</button>
+            <button id="num" onclick="sev()">5</button>
+            <button id="num" onclick="sev()">6</button>
+            <button class="pata_nahi" id="sub"><i class="fa-solid fa-minus"></i></button>
+        </div>
+
+        <div class="btn1">
+            <button id="num" onclick="sev()">1</button>
+            <button id="num" onclick="sev()">2</button>
+            <button id="num" onclick="sev()">3</button>
+            <button class="pata_nahi" id="add"><i class="fa-solid fa-plus"></i></button>
+        </div>
+
+        <div class="btn1">
+            <button id="num" onclick="sev()">0</button>
+            <button id="num" onclick="sev()">00</button>
+            <button id="cir" style="font-size: 5px;"><i class="fa-solid fa-circle"></i></button>
+            <button class="pata_nahi" id="ope">=</button>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="app.js"></script>
+</html>

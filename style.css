@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(173, 163, 163);
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.box1{
+    height: 540px;
+    width: 380px;
+    border: 2 px solid white;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+
+
+.btn>button{
+    height: 55px;
+    width: 60px;
+    border-radius: 100%;
+    font-size: 1.3rem;
+    border: none;
+}
+
+
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    
+   
+}
+
+
+.btn1>button{
+    height: 55px;
+    width: 60px;
+    border-radius: 100%;
+    font-size: 1.3rem;
+    border: none;
+}
+
+
+.pata_nahi{
+background-color:rgba(252, 164, 0, 0.849);
+border: none;
+}
+
+.input{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.input>input{
+    height: 60px;
+    width: 300px;
+    background-color: white;
+
+}
